@@ -107,8 +107,8 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome To My Ware House Server site page ')
+    res.send('Welcome To Ware House Server site page ')
 })
 app.listen(port, ()=> {
-    console.log('WareHouse', port)
+    console.log('Ware-House', port)
 })
